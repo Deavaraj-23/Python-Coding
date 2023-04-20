@@ -1,12 +1,22 @@
 # Python-Coding
 ### my pythin basic codings
-def reverseInGroups(self, arr, N, K):
-        # code here
-        
-        for i in range(0,N,K):
-            if i>N-K:
-                arr[i:N]=reversed(arr[i:N])
-            else:
-                arr[i:i+K]=reversed(arr[i:i+K])
-                
-        return arr
+# ///////////////////////////////////////////////check arrays are equal or not
+
+# def check (arr1,arr2,n1,n2):
+#     if n1!=n2:
+#         return False
+#     else:
+#         arr1.sort()
+#         arr2.sort()
+#         for i in range(n1):
+#             if arr1[i]!=arr2[i]:
+#                 return False
+#     return True
+# n1=int(input("enter n.of element:"))
+# arr1=list(map(int,input("enter elements of 1st arrey:").split()))
+# n2=int(input("enter n.of element:"))
+# arr2=list(map(int,input("enter elements of 1st arrey:").split()))
+# if check(arr1,arr2,n1,n2):
+#     print(" both are equal")
+# else:
+#     print("both are not equal")
